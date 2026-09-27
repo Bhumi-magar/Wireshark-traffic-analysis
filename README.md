@@ -6,3 +6,6 @@ ARP — Captured and decoded an ARP request/reply pair, identifying the EtherTyp
 ICMP — Captured and decoded ICMP echo request/reply (ping) packets, identifying the IP protocol field used for ICMP.
 Traceroute (TTL behavior) — Captured a tracert session and decoded how TTL is incremented to generate ICMP "TTL Exceeded" replies from each router along the path.
 TCP/HTTP session — Decoded a full HTTP session end-to-end: the TCP three-way handshake (SYN, SYN-ACK, ACK), initial sequence numbers (absolute and relative), client/server port numbers, and the final acknowledgment numbers during connection teardown.
+Contents
+wireshark.docx — Full write-up with annotated screenshots for each section above.
+Tools Used - Wireshark, Windows Command Prompt (ping, tracert, arp -d)
